@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página sobre CSS</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header>   
+        <div class="logo">
+            <img src="assets/images/logo.png" width="200"/>
+        </div>
+    </header>
+
+    <div class="bar"></div>
+
+    <div class="content">
+        <nav class="sidebar">
+            <h2>Título</h2>
+            <ul>
+                <li><a href="css.html">CSS</a></li>
+                <li><a href="index.html">HTML</a></li>
+                <li><a href="js.html">JavaScript</a></li>
+            </ul>
+        </nav>
+
+        <main class="main">
+
+            <h2>Cascading Style Sheets</h2>
+            <p id="resumo">Cascading Style Sheets (abreviado CSS) é um mecanismo para adicionar estilos (cores, fontes, espaçamento, etc.) a uma página web,[1] aplicado diretamente nas tags HTML ou ficar contido dentro das tags style. Também é possível, adicionar estilos adicionando um link para um arquivo CSS que contém os estilos. Assim, quando se quiser alterar a aparência dos documentos vinculados a este arquivo CSS, basta modifica-lo. 
+            </p>
+
+            <h3>Sintaxe</h3>
+            <p id="sintaxe">CSS tem uma sintaxe simples, e utiliza uma série de palavras em inglês para especificar os nomes de diferentes propriedade de estilo de uma página.
+
+                Uma instrução CSS consiste em um seletor e um bloco de declaração. Cada declaração contém uma propriedade e um valor, separados por dois pontos (:). Cada declaração é separada por ponto e vírgula (;). 
+            </p>
+
+            <h3>Seletores</h3>
+            <p id="seletores">Definição de estilo é um conjunto de propriedades visuais para um elemento, o CSS define regras que fazem as definições de estilo casarem com um elemento ou grupo de elemento, o documento pode conter um bloco de CSS num elemento style ou usando o elemento link apontando para um arquivo externo que contenha o bloco CSS.
+
+                Para uso com o CSS, foi criado o atributo class que todo elemento pode conter.
+                
+                As regras de casamento para o CSS são chamadas de seletores, uma definição de estilo pode ser casada com um seletor ou um grupo de seletores separados por vírgula, um seletor pode casar um elemento por:
+                
+                    elemento do tipo : element_name { style definition; }
+                    elemento do tipo com a classe : element_name.class_name { style definition; }
+                    todos os elementos com a classe : .class_name { style definition; }
+                    o elemento com o id : #id_of_element { style definition; }
+                    casamento de um grupo : element_name_01, element_name_02, .class_name { style definition; }
+            </p>
+            <figure>
+                <img src="assets/images/CSS3_logo_and_wordmark.svg.png"/>
+                <figcaption>Logo do CSS</figcaption>
+            </figure>
+        </main>
+
+        <nav class="anchors">
+            <h2>Neste Artigo</h2>
+            <ul>
+                <li><a href="#resumo">Resumo</a></li>
+                <li><a href="#sintaxe">Sintaxe</a></li>
+                <li><a href="#seletores">Seletores</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <footer class="footer">
+
+    </footer>
+</body>
+</html>
